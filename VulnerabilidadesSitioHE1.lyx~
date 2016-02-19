@@ -119,6 +119,41 @@ lllllllll
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Este es mi comentario
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+Este es un realtado en gris
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Abstract
 En este documento se En este documento se En este documento se En este documento
  se En este documento se En este documento se En este documento se En este

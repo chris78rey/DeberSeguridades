@@ -147,6 +147,13 @@ status open
 
 \begin_layout Plain Layout
 Este es un realtado en gris
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tomayko2004explained"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
