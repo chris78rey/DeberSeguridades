@@ -91,8 +91,8 @@
 \begin_body
 
 \begin_layout Title
-Análisis y mitigación de vulnerabilidades del sitio web del Hospital de
- las Fuerzas Armadas N°1.
+Análisis para mitigación de vulnerabilidades del sitio web del Hospital
+ de las Fuerzas Armadas N°1.
 \end_layout
 
 \begin_layout Author
@@ -177,7 +177,13 @@ Desarrollo
 \end_layout
 
 \begin_layout Standard
-Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
+Desarrollo Desarrollo Desarrollo Desarrollo
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bentham2000tcp"
+
+\end_inset
+
  Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
  Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
  Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
@@ -189,7 +195,8 @@ Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
  Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
  Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
  Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo.
+ Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
+ Desarrollo.
 \end_layout
 
 \begin_layout Section
@@ -209,6 +216,7 @@ filename "conclusiones.tex"
 \begin_layout Section*
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
+btprint "btPrintAll"
 bibfiles "Bibliografia"
 options "plain"
 
