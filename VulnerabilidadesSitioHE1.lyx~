@@ -91,12 +91,32 @@
 \begin_body
 
 \begin_layout Title
-Análisis y mitigación de vulnerabilidades del sitio web del Hospital de
- las Fuerzas Armadas N°1.
+Análisis para mitigación de vulnerabilidades del sitio web del Hospital
+ de las Fuerzas Armadas N°1.
 \end_layout
 
 \begin_layout Author
 Christian Ruiz, Iveth Tello, Angel Valverde
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "etiq"
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+lllllllll
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Abstract
@@ -134,26 +154,13 @@ Esta es la introducción Esta es la introducción Esta es la introducción
  Esta es la introducción Esta es la introducción Esta es la introducción
  Esta es la introducción Esta es la introducción Esta es la introducción
  Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción.Esta
+ Esta es la introducción Esta es la introducción Esta
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tomayko2004explained"
+
+\end_inset
+
  es la introducción Esta es la introducción Esta es la introducción Esta
  es la introducción Esta es la introducción Esta es la introducción Esta
  es la introducción Esta es la introducción Esta es la introducción Esta
@@ -169,7 +176,35 @@ Esta es la introducción Esta es la introducción Esta es la introducción
  es la introducción Esta es la introducción Esta es la introducción Esta
  es la introducción Esta es la introducción Esta es la introducción Esta
  es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción.
+ es la introducción Esta es la introducción Esta es la introducción Esta
+ es la introducción Esta es la introducción Esta es la introducción Esta
+ es la introducción Esta es la introducción Esta es la introducción Esta
+ es la introducción Esta es la introducción Esta es la introducción Esta
+ es la introducción.Esta es la introducción Esta es la introducción Esta
+ es la introducción Esta es la introducción Esta es la introducción Esta
+ es la introducción Esta es la introducción Esta es la introducción Esta
+ es la introducción Esta es la introducción Esta es la introducción Esta
+ es la introducción Esta es la introducción Esta es la introducción
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Esta nota explica que es lo que se va a hacer
+\end_layout
+
+\end_inset
+
+ Esta es la introducción Esta es la introducción Esta es la introducción
+ Esta es la introducción Esta es la introducción Esta es la introducción
+ Esta es la introducción Esta es la introducción Esta es la introducción
+ Esta es la introducción Esta es la introducción Esta es la introducción
+ Esta es la introducción Esta es la introducción Esta es la introducción
+ Esta es la introducción Esta es la introducción Esta es la introducción
+ Esta es la introducción Esta es la introducción Esta es la introducción
+ Esta es la introducción Esta es la introducción Esta es la introducción
+ Esta es la introducción Esta es la introducción Esta es la introducción
+ Esta es la introducción Esta es la introducción Esta es la introducción
+ Esta es la introducción Esta es la introducción Esta es la introducción.
 \end_layout
 
 \begin_layout Section
@@ -177,7 +212,13 @@ Desarrollo
 \end_layout
 
 \begin_layout Standard
-Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
+Desarrollo Desarrollo Desarrollo Desarrollo
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bentham2000tcp"
+
+\end_inset
+
  Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
  Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
  Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
@@ -189,7 +230,8 @@ Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
  Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
  Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
  Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo.
+ Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
+ Desarrollo.
 \end_layout
 
 \begin_layout Section
@@ -209,6 +251,7 @@ filename "conclusiones.tex"
 \begin_layout Section*
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
+btprint "btPrintAll"
 bibfiles "Bibliografia"
 options "plain"
 
