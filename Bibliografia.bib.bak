@@ -1,0 +1,14 @@
+@book{bentham2000tcp,
+  title={TCP/IP Lean: Web servers for embedded systems},
+  author={Bentham, Jeremy},
+  volume={6600},
+  year={2000},
+  publisher={CMP books Lawrence, KS}
+}
+
+@article{tomayko2004explained,
+  title={How I explained REST to my wife},
+  author={Tomayko, Ryan},
+  journal={The Various Writings and Linkings of Ryan Tomayko},
+  year={2004}
+}

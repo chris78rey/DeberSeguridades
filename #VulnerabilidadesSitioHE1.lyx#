@@ -91,133 +91,62 @@
 \begin_body
 
 \begin_layout Title
-Análisis para mitigación de vulnerabilidades del sitio web del Hospital
- de las Fuerzas Armadas N°1.
+Evaluación de herramientas para XSS.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{empty}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Author
-Christian Ruiz, Iveth Tello, Angel Valverde
+Christian.
+ R.
+ Ruiz, I.
+ Rosario Tello, Angel V.
+ Valverde.
 \end_layout
 
 \begin_layout Abstract
-En este documento se En este documento se En este documento se En este documento
- se En este documento se En este documento se En este documento se En este
- documento se En este documento se En este documento se En este documento
- se En este documento se En este documento se En este documento se En este
- documento se En este documento se En este documento se En este documento
- se En este documento se En este documento se En este documento se En este
- documento se En este documento se En este documento se En este documento
- se En este documento se En este documento se En este documento se En este
- documento se En este documento se En este documento se En este documento
- se En este documento se En este documento se En este documento se En este
- documento se En este documento se En este documento se En este documento
- se En este documento se En este documento se En este documento se En este
- documento se En este documento se En este documento se En este documento
- se En este documento se En este documento se En este documento se En este
- documento se En este documento se En este documento se En este documento
- se En este documento se En este documento se En este documento se En este
- documento se En este documento se.
-\end_layout
-
-\begin_layout Section
-Introducción
-\end_layout
-
-\begin_layout Standard
-Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción
- Esta es la introducción Esta es la introducción Esta es la introducción.Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción Esta es la introducción Esta
- es la introducción Esta es la introducción.
-\end_layout
-
-\begin_layout Section
-Desarrollo
-\end_layout
-
-\begin_layout Standard
-Desarrollo Desarrollo Desarrollo Desarrollo
-\begin_inset CommandInset citation
-LatexCommand cite
-key "bentham2000tcp"
-
-\end_inset
-
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo Desarrollo
- Desarrollo.
-\end_layout
-
-\begin_layout Section
-Conclusiones
-\end_layout
-
-\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "conclusiones.tex"
+filename "RESUMEN/RESUMEN.lyx"
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintAll"
-bibfiles "Bibliografia"
+bibfiles "Bibliografia00001"
 options "plain"
 
 \end_inset
