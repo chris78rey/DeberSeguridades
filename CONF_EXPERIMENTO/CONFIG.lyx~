@@ -177,7 +177,196 @@ El estándar ISO 9660 define un sistema de archivos para CD-ROM.
  punto el manejador de máquinas virtuales el cual en su paso siguiente pide
  la ubicación en la que se encuentra la imagen y la instalción se la realizó
  fijando algunas caraterísticas como idioma, teclado a emplear, direcciones
- de las tarjetas de red y 
+ de las tarjetas de red y usuarios que va a contener la máquina virtual.
+ Una vez concluida la instalación de la máquina virtual se debe detenerla
+ o almacenar su estado actual con la finalidad de exportar el servicio virtualiz
+ado que fue útil ya que en muchas de las modificaciones de la configuración
+ la máquina virtual dejó de funcionar y lo que se realizaba era importar
+ el servicio virtualizado y continuar desde la instalación base.
+\end_layout
+
+\begin_layout Standard
+El router
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Su función principal consiste en enviar o encaminar paquetes de datos de
+ una red a otra, es decir, interconectar subredes.
+\end_layout
+
+\end_inset
+
+ utilizado fue un TP-Link Modelo No.
+ TL-WR841N / TL-WR841ND, al cual se lo configuró de modo que no tenga problemas
+ ni obstáculos en su camino para llegar a sitio a ser examinado.
+ Primero se registraron en una bitácora sus direcciones MAC
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+En las redes de computadoras, la dirección MAC es un identificador de 48
+ bits que corresponde de forma única a una tarjeta o dispositivo de red.
+ Se conoce también como dirección física, y es única para cada dispositivo.
+\end_layout
+
+\end_inset
+
+ y se fijó una dirección IP fija
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Una dirección IP es una etiqueta numérica que identifica, de manera lógica
+ y jerárquica, a un interfaz de un dispositivo dentro de una red que utilice
+ el protocolo IP, que corresponde al nivel de red del Modelo OSI.
+\end_layout
+
+\end_inset
+
+ que corresponde a la entrada LAN de una de sus interfaces y que tenga conexión
+ con un modem ADSL
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Módem ADSL: modula las señales enviadas desde la LAN para que puedan transmitirs
+e por la línea ADSL y demodula las señales recibidas.
+\end_layout
+
+\end_inset
+
+, al punto de acceso se fija para lo que corresponde a la red interna un
+ SSID
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+El SSID (Service Set Identifier) es un nombre incluido en todos los paquetes
+ de una red inalámbrica para identificarlos como parte de esa red.
+ 
+\end_layout
+
+\end_inset
+
+, fijando además el nivel de seguridad se lo desactiva, se habilita los
+ controles de TCP, UDP e ICMP flood para que no se sature el router.
+ Con la red ya configurada se inicia nuevamente la máquina virtual como
+ usuario administrador(root) y como se definió previamente tres interfaces
+ se porcede a levantarlas y se realizó pruebas de conectividad con el sitio
+ destinado para revizar sus vulnerabilidades, se usó el comando ping y tracerout
+e y cuando se obtiene el acceso se pudo iniciar con la revisión de las herramien
+tas que posee Kali Linux 2.0 para realizar ataques o revisar vulnerabilidades.
+ Como la etapa de reconocimiento se realizó en las instalaciones de la instituci
+ón de salud y con el ambiente listo para que funcione se buscó cual de las
+ herramientas cumplia con los requisitos de proporcionar la sufiente información
+ del sitio y un entorno gráfico que permita tener una visión global del
+ sitio.
+ Se revisó inicialmente algunas herramientas que se conocen en el mercado
+ como nmap, zenmap, netdiscover y maltego.
+ la primera(nmap) fue muy útil pero no bridó mayor ayuda a nivel intuitivo,
+ netdiscover y al igual que nmap no tenia una interfaz amigable al igual
+ que netdiscover, zenmap posee interfaz amigable al usuario y se recopilo
+ algunos tipos de análisis, en esta todo lo que se definió de manera gráfica
+ se transormó a comandos nmap que se almacenaron automáticamente, un punto
+ importante fue que esta herramienta posee la definición de profiles que
+ permiten hacer una agrupación de parámetros de nmap y almacenarlos para
+ su reutilización.
+ 
+\end_layout
+
+\begin_layout Standard
+En el caso de maltego que se encuentra en el menú de opciones más utilizadas
+ en Kali Linux se la revisó para su utilización y la diferencia principal
+ que se encontró fue que necesitava cada usuario registrar sus datos en
+ un sitio externo
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+www.paterva.com/web6/community/maltego
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ creando una cuenta para que se pueda realizar la revisión de dominio y
+ sus diferentes tipos de escaneos.
+ Cuando se completo la tarea anterior se pudó ingresar ya a la interfaz
+ gráfica presentada por la herramienta(maltego) y se registro la información
+ de correo de las personas encargadas de realizar el escaneo y revisa en
+ su base de datos que la cuenta se encuentre registrada y lista para su
+ utilización.
+ Esta herramienta permite en la versión instalada que es comunitaria
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+En el caso de maltego community permite hacer un número limitado de revisiones
+ a los dominios ingresados.
+\end_layout
+
+\end_inset
+
+conectarse a un servidor externo que contiene información de servidores
+ de nombre a nivel mundial y esta es la opción que se utilizó para iniciar
+ la revisión del dominio.
+ Cuando se ingresa el dominio automáticamente se transforma en un entorno
+ gráfico que permite ir transformando o explotando sus nodos y en ese caso
+ obtener direcciones IP, servidores de nombre y las cuentas de correo de
+ los administradores del sitio.
+ 
+\end_layout
+
+\begin_layout Standard
+En este caso la herramienta(maltego) proporcionó una interfaz de usuario
+ amigable e información que con las otras herramientas no se pudo obtener.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename grafico_menu_maltego.png
+	lyxscale 33
+	scale 15
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Herramienta empleada para escaneo de dominio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
