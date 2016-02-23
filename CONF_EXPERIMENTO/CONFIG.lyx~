@@ -1,0 +1,184 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass IEEEtran
+\begin_preamble
+\usepackage[spanish,es-nodecimaldot,es-tabla,es-noquoting]{babel}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{float}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package 
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\branch ssd
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch ramita
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch tres
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Después de las autorizaciones que la entidad de salud proporcionó para que
+ se pueda revisar su sitio web se inició con la configuración del experimento,
+ tras coordinaciones previas al ensamblado del sitio desde donde se realizó
+ el análisis, se definió las herramientas de software, así como el equipamiento
+ informático y de comunicaciones, entre estos se estableció la utilización
+ de tres computadoras portátiles, un punto de acceso y un canal con salida
+ a Internet.
+ El sistema operativo que se utilizó en las máquinas anfitrionas
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Equipo sobre el cual se instaló el sistema operativo para realizar el análisis.
+\end_layout
+
+\end_inset
+
+ fie Windows 8 en los tres casos.
+ En el caso de la definición de las características base de las máquinas
+ virtuales a instalar se definió a Kali Linux 2.0 como sistema operativo
+ huesped
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+El sistema que se instala sobre la máquina virtual
+\end_layout
+
+\end_inset
+
+ y se fijaron algunos parámetros para que se pueda cumplir con carácterística
+ mínimas necesarias para que arranque la máuina virtual ya que en muchas
+ de las pruebas que se realizaron no permitió una instalación completa si
+ no se cumplía con ciertos parámetros como en el caso de memoria RAM que
+ necesitó que se configuren 2GB y de espacio de almacenamiento con 12GB,
+ a más de ello un procesador que pueda ocupar el 60% de utilización del
+ CPU del equipo anfitrión.
+ Se definierón tambien tres adpatadores de red para que cualquiera pueda
+ servir como adaptador auxiliar en caso de que alguno falle y cada adaptador
+ de la red se lo configuró en modo promiscuo.
+ Las imágenes de Kali Linux se las encontraron en un mirror alojado en una
+ de las Instituciones de educación superior en esta caso la 
+\begin_inset Quotes eld
+\end_inset
+
+Escuela Politécnica Nacional
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://mirror.epn.edu.ec/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ que cuenta con imágenes ISO
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+El estándar ISO 9660 define un sistema de archivos para CD-ROM.
+ Su propósito es que tales medios sean legibles por diferentes sistemas
+ operativos
+\end_layout
+
+\end_inset
+
+ de los sistemas operativos utilizados, una vez descargado se lo ubica en
+ un sitio desde el cual la máquina virtual tenga acceso, Se arranca en este
+ punto el manejador de máquinas virtuales el cual en su paso siguiente pide
+ la ubicación en la que se encuentra la imagen y la instalción se la realizó
+ fijando algunas caraterísticas como idioma, teclado a emplear, direcciones
+ de las tarjetas de red y 
+\end_layout
+
+\end_body
+\end_document

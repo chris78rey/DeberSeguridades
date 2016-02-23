@@ -92,13 +92,11 @@
 
 \begin_layout Standard
 En todo sitio web se debe realizar un estudio o análisis de su operación
- y si esta no presenta un riesgo a la organización y a sus usuarios por
- lo que la razón para realizar el análisis, es tener información oportuna
- que permita establecer un plan de mitigación de riesgos, ya que si un cliente
- se ve afectado a nivel de entrega de datos u operación del sitio puede
- probocar el daño de la imagen y credibilidad de los usuarios de las organizacio
-nes afectadas, para llegar a cumplir esto se realizó los pasos o las tareas
- que recomienda el 
+ que permita tener información para establecer un plan de mitigación de
+ riesgos, ya que si un cliente se ve afectado a nivel de entrega de datos
+ u operación del sitio puede probocar el daño de la imagen y credibilidad
+ de los usuarios de las organizaciones afectadas, para llegar a cumplir
+ esto se realizó los pasos o las tareas que recomienda el 
 \begin_inset Quotes eld
 \end_inset
 
@@ -131,18 +129,9 @@ Cross Site Scripting
  Para un reconocimiento inicial se realizó entrevistas con el personal encargado
  de manejar el sitio, se pregunto sobre la ´manera en que se encuentra estructur
 ada la infraestructura de red lo que permitió entender y definir como se
- p.
- Se definio la forma de revisión con las herramientas de análisis de vulnerabili
-dades
-\begin_inset CommandInset citation
-LatexCommand cite
-key "bermejo2014metodologia"
-
-\end_inset
-
-.
+ realizaría el análisis.
  Posterior a esta etapa de reconocimiento se buscó las herramientas que
- permita realizar un scaneo del sitio OSINT
+ permita realizar un scaneo del sitio como lo hace OSINT
 \begin_inset Foot
 status open
 
@@ -153,15 +142,28 @@ Open Source intelligence, OSINT que es la información pública de recursos
 
 \end_inset
 
- y seleccionó a Maltego para transformar las direcciones de dominio e ir
- explotando las características e información de contactos de las personas
- encargadas del sitio.
+, seleccionando a 
+\begin_inset Quotes eld
+\end_inset
+
+Maltego
+\begin_inset Quotes erd
+\end_inset
+
+ que permitió transformar las direcciones de dominio e ir explotando las
+ características e información de contactos de las personas encargadas del
+ sitio.
  Para realiar el análisis de vulnerabilidades se utilizó un sitio alterno
  con conexión de internet, un access point y Kali Linux 2.0 instalado sobre
- Virtual Box, en la etapa de acceso se utilizó algunas de las herramientas
- para detección de vulerabilidades como Dirbuster, Zarproxy, Paros, ProxiStrike,
- Uniscan, Vega, W3af, Xsser, Apache para luego realizar el informe y entregarlo
- a la gerencia de TIC´S de la institución interesada en este análisis.
+ Virtual Box.
+ En la etapa de acceso se utilizó algunas de las herramientas para detección
+ de vulerabilidades como Dirbuster, Zarproxy, Paros, ProxiStrike, Uniscan,
+ Vega, W3af, Xsser, Apache y con los resultados se emitió el informe a la
+ gerencia de TIC´S de la institución auspiciante.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body

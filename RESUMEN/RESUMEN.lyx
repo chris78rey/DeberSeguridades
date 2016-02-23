@@ -92,29 +92,12 @@
 
 \begin_layout Standard
 En todo sitio web se debe realizar un estudio o análisis de su operación
- y si esta no presenta un riesgo a la organización y a sus usuarios por
- lo que la razón para realizar el análisis, es tener información oportuna
- que permita establecer un plan de mitigación de riesgos, ya que si un cliente
- se ve afectado a nivel de entrega de datos u operación del sitio puede
- probocar el daño de la imagen y credibilidad de los usuarios de las organizacio
-nes afectadas, para llegar a cumplir esto se realizó los pasos o las tareas
- que recomienda el 
-\begin_inset Quotes eld
-\end_inset
-
-ethical hacking
-\begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "book"
-
-\end_inset
-
- las que permite tener un marco referencial y la secuencia lógica o guía
- para conseguir información de vulnerabilidades en ataques de tipo XSS
+ que permita tener información para establecer un plan de mitigación de
+ riesgos, ya que si un cliente se ve afectado a nivel de entrega de datos
+ u operación del sitio puede probocar el daño de su imagen y credibilidad.
+ Se realizó los pasos o las tareas que recomiendan las metodologías permitiendo
+ tener un marco referencial y la secuencia lógica o guía para conseguir
+ información de vulnerabilidades en ataques de tipo XSS
 \begin_inset Foot
 status open
 
@@ -128,12 +111,22 @@ Cross Site Scripting
  Para la revisión del sitio se definió un cronograma de trabajo a la gerecia
  de TIC´S de una organización dedicada a dar servicios de salud, se les
  informó sobre el alcance del trabajo y las herramientas a utilizar.
- Para un reconocimiento inicial se realizó entrevistas con el personal encargado
- de manejar el sitio, se pregunto sobre la ´manera en que se encuentra estructur
-ada la infraestructura de red lo que permitió entender y definir como se
- realizaría el análisis.
+ Para un reconocimiento inicial se organizaron entrevistas con el personal
+ encargado de manejar el sitio, se preguntó sobre la manera en que se encuentra
+ estructurada la infraestructura de red lo que permitió entender y definir
+ como se realizaría el análisis.
  Posterior a esta etapa de reconocimiento se buscó las herramientas que
- permita realizar un scaneo del sitio como lo hace OSINT
+ permita realizar un escaneo
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Definir las direcciones IP que conforman el sitio
+\end_layout
+
+\end_inset
+
+ del sitio como lo hace OSINT
 \begin_inset Foot
 status open
 
@@ -155,13 +148,17 @@ Maltego
  que permitió transformar las direcciones de dominio e ir explotando las
  características e información de contactos de las personas encargadas del
  sitio.
- Para realiar el análisis de vulnerabilidades se utilizó un sitio alterno
- con conexión de internet, un access point y Kali Linux 2.0 instalado sobre
- Virtual Box.
- En la etapa de acceso se utilizó algunas de las herramientas para detección
- de vulerabilidades como Dirbuster, Zarproxy, Paros, ProxiStrike, Uniscan,
- Vega, W3af, Xsser, Apache y con los resultados se emitió el informe a la
- gerencia de TIC´S de la institución auspiciante.
+ Para realizar el análisis de vulnerabilidades desde un sitio alterno se
+ necesitó de las herramientas y servicios de conexión de internet, un access
+ point, Kali Linux 2.0 instalado sobre Virtual Box.
+ En la etapa de acceso las herramienta que se emplerarón fueron Dirbuster,
+ Zarproxy, Paros, ProxiStrike, Uniscan, Vega y W3af las que presentaron
+ resultados en diversos formatos que permitieron emitir el informe a la
+ gerencia de TIC´S de la institución de salud.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body

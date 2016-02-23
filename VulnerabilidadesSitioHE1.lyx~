@@ -91,8 +91,7 @@
 \begin_body
 
 \begin_layout Title
-Evaluación de herramientas utilizadas para determinar vulnerabilidades de
- ataques XSS en sitios web.
+Evaluación de herramientas de detección de vulnerabilidades XSS
 \end_layout
 
 \begin_layout Standard
@@ -128,8 +127,7 @@ pagestyle{empty}
 \begin_layout Author
 Christian.
  R.
- Ruiz, I.
- Rosario Tello, Angel V.
+ Ruiz, Iveth Tello, Angel V.
  Valverde.
 \end_layout
 
@@ -141,6 +139,30 @@ filename "RESUMEN/RESUMEN.lyx"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+INTRODUCCION
+\end_layout
+
+\begin_layout Section
+MARCO TEÓRICO
+\end_layout
+
+\begin_layout Section
+CONFIGURACIÓN DEL EXPERIMENTO
+\end_layout
+
+\begin_layout Section
+EVALUACIÓN DE RESULTADOS Y DISCUSIÓN
+\end_layout
+
+\begin_layout Section
+TRABAJOS RELACIONADOS
+\end_layout
+
+\begin_layout Section
+CONCLUSIONES Y TRABAJO FUTURO
 \end_layout
 
 \begin_layout Standard

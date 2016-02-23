@@ -90,101 +90,43 @@
 
 \begin_body
 
-\begin_layout Title
-Evaluación de herramientas de detección de vulnerabilidades XSS
-\end_layout
-
 \begin_layout Standard
-\begin_inset ERT
+Después de las autorizaciones que la entidad de salud proporcionó para que
+ se pueda revisar su sitio web se inició con la configuración del experimento,
+ tras coordinaciones previas al ensamblado del sitio desde donde se realizó
+ el análisis, se definió las herramientas de software, así como el equipamiento
+ informático y de comunicaciones, entre estos se estableció la utilización
+ de tres computadoras portátiles, un punto de acceso y un canal con salida
+ a Internet.
+ El sistema operativo que se utilizó en las máquinas anfitrionas
+\begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-
-
-\backslash
-maketitle
+Equipo sobre el cual se instaló el sistema operativo para realizar el análisis.
 \end_layout
+
+\end_inset
+
+ fie Windows 8 en los tres casos.
+ En el caso de la definición de las características base de las máquinas
+ virtuales a instalar se definió a Kali Linux 2.0 como sistema operativo
+ huesped
+\begin_inset Foot
+status open
 
 \begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{empty}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-pagestyle{empty}
+El sistema que se instala sobre la máquina virtual
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Author
-Christian.
- R.
- Ruiz, Iveth Tello, Angel V.
- Valverde.
-\end_layout
-
-\begin_layout Abstract
-\begin_inset CommandInset include
-LatexCommand input
-filename "RESUMEN/RESUMEN.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-INTRODUCCION
-\end_layout
-
-\begin_layout Section
-MARCO TEÓRICO
-\end_layout
-
-\begin_layout Section
-CONFIGURACIÓN DEL EXPERIMENTO
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "CONF_EXPERIMENTO/CONFIG.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-EVALUACIÓN DE RESULTADOS Y DISCUSIÓN
-\end_layout
-
-\begin_layout Section
-TRABAJOS RELACIONADOS
-\end_layout
-
-\begin_layout Section
-CONCLUSIONES Y TRABAJO FUTURO
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintAll"
-bibfiles "Bibliografia00001"
-options "plain"
-
-\end_inset
-
-
+ y se fijaron algunos parámetros para que se pueda cumplir con carácterística
+ mínimas necesarias para que arranque la máuina virtual ya que en muchas
+ de las pruebas que se realizaron no permitió una instalación completa si
+ no se cumplía con ciertos parámetros como en el caso de memoria RAM que
+ necesitó que se configuren 2GB y de espacio de almacenamiento con 12GB,
+ a más de ello un procesador  
 \end_layout
 
 \end_body
