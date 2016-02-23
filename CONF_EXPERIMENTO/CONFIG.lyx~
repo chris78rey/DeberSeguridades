@@ -337,13 +337,13 @@ En este caso la herramienta(maltego) proporcionó una interfaz de usuario
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename grafico_menu_maltego.png
-	lyxscale 33
+	lyxscale 5
 	scale 15
 
 \end_inset
@@ -360,13 +360,15 @@ Herramienta empleada para escaneo de dominio
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Cuando se obtuvo la dirección IP del sitio se revisó documentación de las
+ herramientas de XSS y se encontró un listado de las que se utiliza en este
+ tipo de ataques y se encontró a Metasploit 
 \end_layout
 
 \end_body
