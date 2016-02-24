@@ -94,7 +94,7 @@
 En todo sitio web se debe realizar un estudio o análisis de su operación
  que permita tener información para establecer un plan de mitigación de
  riesgos, ya que si un cliente se ve afectado a nivel de entrega de datos
- u operación del sitio puede probocar el daño de su imagen y credibilidad.
+ u operación del sitio puede provocar el daño de su imagen y credibilidad.
  Se realizó los pasos o las tareas que recomiendan las metodologías permitiendo
  tener un marco referencial y la secuencia lógica o guía para conseguir
  información de vulnerabilidades en ataques de tipo XSS
@@ -108,7 +108,7 @@ Cross Site Scripting
 \end_inset
 
 .
- Para la revisión del sitio se definió un cronograma de trabajo a la gerecia
+ Para la revisión del sitio se definió un cronograma de trabajo a la gerencia
  de TIC´S de una organización dedicada a dar servicios de salud, se les
  informó sobre el alcance del trabajo y las herramientas a utilizar.
  Para un reconocimiento inicial se organizaron entrevistas con el personal
@@ -155,10 +155,6 @@ Maltego
  Zarproxy, Paros, ProxiStrike, Uniscan, Vega y W3af las que presentaron
  resultados en diversos formatos que permitieron emitir el informe a la
  gerencia de TIC´S de la institución de salud.
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \end_body

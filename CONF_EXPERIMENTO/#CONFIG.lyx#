@@ -340,10 +340,11 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename grafico_menu_maltego.png
-	lyxscale 33
-	scale 33
+	lyxscale 5
+	scale 15
 
 \end_inset
 
@@ -359,13 +360,30 @@ Herramienta empleada para escaneo de dominio
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Cuando se obtuvo la dirección IP del sitio se revisó documentación de las
+ herramientas de XSS y se encontró un listado de las que se utiliza en este
+ tipo de ataques y se encontró a Metasploit que es un framework que permite
+ realizar el ciclo completo del hacker y viene instalado con Kali Linux
+ pero se encontró que no viene con alguna herramienta que permita realizar
+ este tipo de ataques, pero que mediante la utilización de ciertos módulos
+ se puee integrar componentes como beef que es otro framewor que permite
+ realizar este tipo de ataques, motivo por el que se descartó a mencionada
+ herramienta.
+\end_layout
+
+\begin_layout Standard
+Cuando se cumple ya la fase previa el paso siguiente es iniciar con la revisión
+ de las herramientas y la primera en revisarse fue zaproxy al cual se lo
+ puede arrancar ingresando por el menú contextual y en la opción de análisis
+ de aplicaciones web aparece su ícono.
+ Cuando se accede a este componente aparece una ventana en la que permite
+ ingresar el URL 
 \end_layout
 
 \end_body

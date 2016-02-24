@@ -342,7 +342,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename grafico_menu_maltego.png
+	filename image6809_.png
 	lyxscale 5
 	scale 15
 
@@ -378,7 +378,38 @@ Cuando se obtuvo la dirección IP del sitio se revisó documentación de las
 \end_layout
 
 \begin_layout Standard
+Cuando se cumple ya la fase previa el paso siguiente es iniciar con la revisión
+ de las herramientas y la primera en revisarse fue zaproxy al cual se lo
+ puede arrancar ingresando por el menú contextual y en la opción de análisis
+ de aplicaciones web aparece su ícono.
+ Cuando se accede a este componente aparece una ventana en la que permite
+ ingresar el URL para ello se debe revisar la opción de política de la herramien
+ta en la que se definió el nivel de ataque en este caso se definió un ataque
+ de alto nivel y que genere un log de las mismas características, posee
+ esta herramienta la posibilidad de habilitar plugins
+\begin_inset Foot
+status open
 
+\begin_layout Plain Layout
+Componente que se puede añadir a un programa para aumentar sus capacidades.
+\end_layout
+
+\end_inset
+
+ que permite revisar desde un navegador en específico la revisión de sus
+ vulnerabilidades, posee también un componente que permite generar payloads
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Script de generación de código generalmente javascript que se puede utilizar
+ en ataques XSS.
+ 
+\end_layout
+
+\end_inset
+
+de manera autática, así como los reportes de las páginas más vulnerables.
 \end_layout
 
 \end_body
