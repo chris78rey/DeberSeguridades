@@ -167,6 +167,8 @@ Web Application Firewall.
  servidor de aplicaciones y al sitio web de la misma organización que tiene
  a Apache como servidor web y mediante herramientas de como Vega y OWASP
  ver cual presenta mejores niveles de reporte en ataques XSS.
+ Finalmente se quiere verificar como afecta en la red estos tipos de ataque
+ con herramientas como sar y kSar.
 \end_layout
 
 \end_body

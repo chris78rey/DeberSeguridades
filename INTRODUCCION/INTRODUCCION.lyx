@@ -169,6 +169,8 @@ Web Application Firewall.
  ver cual presenta mejores niveles de reporte en ataques XSS.
  Finalmente se quiere verificar como afecta en la red estos tipos de ataque
  con herramientas como sar y kSar.
+ La pregunta es que tanto se ven afectados los recursos de procesador, memoria
+ y red cuando se realiza el ataque con ambas herramientas.
 \end_layout
 
 \end_body
