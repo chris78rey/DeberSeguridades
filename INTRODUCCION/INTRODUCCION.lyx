@@ -2,7 +2,7 @@
 \lyxformat 474
 \begin_document
 \begin_header
-\textclass IEEEtran-CompSoc
+\textclass IEEEtran
 \begin_preamble
 \usepackage[spanish,es-nodecimaldot,es-tabla,es-noquoting]{babel}
 \usepackage{hyperref}
@@ -91,100 +91,84 @@
 \begin_body
 
 \begin_layout Standard
-Esta es una introducción a atques a aplicativos web que representen un riesgo
- a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web 
+En la actualidad con la expansión de las aplicaciones sobre el Internet
+ ha hecho que las organizaciones tiendan a mantener un contacto directo
+ con sus clientes mediante este medio ya sea por el gran espectro de clientes
+ que puede manejar así como la aparición de dispositivos en los que se puede
+ incorporar esta tecnología y por su costo.
+ En la actualidad se puede definir algunos tipos de ataques en la web según
+ estadísticas
 \begin_inset CommandInset citation
 LatexCommand cite
-after "Tomayko, Ryan"
-key "tomayko2004explained"
+key "torres2013desarrollo"
 
 \end_inset
 
-que representen un riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- Esta es una introducción a atques a aplicativos web que representen un
- riesgo a la seguridad de la organización .
- 
+ que permiten tener en cuenta como los sitios web son el blanco de ataques
+ perpetrados para obtener información o afectar su disponibilidad, lo que
+ conlleva al daño de la imagen de muchas corporaciones puesto que sus usuarios
+ pueden dejar de confiar en la utilización de estos medios.
+ Los pricipales ataques que Imperva
+\begin_inset CommandInset citation
+LatexCommand cite
+key "torres2013desarrollo"
+
+\end_inset
+
+que se dan son principalmente ataques de inclusión local de archivos(LFI)
+ que se dan cuando una los links de las URL reciben como parámetros alguna
+ página que se encuentre alojada en el servidor y puede ser llamada por
+ elementos de la misma página como JavaScript, inclusión remota de archivos(RFI)
+ que permite realizar un ataque similar que se aprobecha de la inclusión
+ dinámica de archivos desde sitios remotos, ataques de SQL injection que
+ pueden vulnerar o inclusive dañar una base de datos mediante el envio de
+ instrucciones que se añaden a los SQL de las páginas permitiendo tener
+ acceso o corromper bases de datos, Ataques de tipo Directory Traversal
+ que permiten ejecutar comandos de sistema operativo fuera de el directorio
+ que contiene sus páginas, Ataques web XSS que permiten a aplicaciones perpetrar
+ ataques aprobechándose de vulnerabilidades de los parámetros que se tranfieren
+ del usuario al sitio, Ataques de extracción de direcciones de correo que
+ permite obtener información de correo electrónico de las personas, Ataques
+ del tipo de spamming a través de comentarios que se infiltran de manera
+ similar a un spam y finalmente Ataques de violación del protocolo HTTP
+ que consiste en el envio de petiociones http mal formados.
+\end_layout
+
+\begin_layout Standard
+Se revisó que para que un ataque sea efectivo se deben efectuarlos en periodos
+ largos de tiempo(más de 40 días) lo que permitiría obtener la mayor cantidad
+ de vulnerabilidades, ajustando las herramientas de ataque para poder encontrar
+ vulnerabilidades y poder lograr el cometido del ataque, en el caso de un
+ análisis de vulnerabilidades se pueden clasificar en ataques http y los
+ de tipo injection que para una revisón leve y de reconocimiento se lo puede
+ realizar en periodos de 15 minutos.
+ En el caso de un análisis de vulnerabilidades se utilizaron algunas herramienta
+s que verificaron las vulnerabilidades con la intención de determinar cual
+ de ellas es la que reporta reportes completos de ataques de tipo XSS y
+ en el ataque perpetrado para determinar vulnerabilidades de un sitio real
+ se lo puede considerar como Gray Hat attack ya que se mantuno conocimiento
+ de la información básica de la infraestructura, permitiendo de algún modo
+ avanzar con el mismo sin tener que conocer la infraestructura global.
+ En este caso se necesita determinar cuales son los principales mecanismos
+ de mitigar un ataque XSS que se pudieran generar en cualquier sitio y determina
+r si la utilización de un WAF
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Web Application Firewall.
+\end_layout
+
+\end_inset
+
+ mediante herramientas open source disminuyen el riesgo en este tipo de
+ ataques y que tipo de aplicaciones tienen mayor vulnerabilidad, en este
+ caso se va a atacar a un portal de servicios que tiene a GlassFish como
+ servidor de aplicaciones y al sitio web de la misma organización que tiene
+ a Apache como servidor web y mediante herramientas de como Vega y OWASP
+ ver cual presenta mejores niveles de reporte en ataques XSS.
+ Finalmente se quiere verificar como afecta en la red estos tipos de ataque
+ con herramientas como sar y kSar.
 \end_layout
 
 \end_body

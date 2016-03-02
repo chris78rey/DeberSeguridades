@@ -146,27 +146,11 @@ Se revisó que para que un ataque sea efectivo se deben efectuarlos en periodos
 s que verificaron las vulnerabilidades con la intención de determinar cual
  de ellas es la que reporta reportes completos de ataques de tipo XSS y
  en el ataque perpetrado para determinar vulnerabilidades de un sitio real
- se lo puede considerar como Gray Hat attack ya que se mantuno conocimiento
- de la información básica de la infraestructura, permitiendo de algún modo
- avanzar con el mismo sin tener que conocer la infraestructura global.
- En este caso se necesita determinar cuales son los principales mecanismos
- de mitigar un ataque XSS que se pudieran generar en cualquier sitio y determina
-r si la utilización de un WAF
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Web Application Firewall.
-\end_layout
-
+ se lo
+\begin_inset space \space{}
 \end_inset
 
- mediante herramientas open source disminuyen el riesgo en este tipo de
- ataques y que tipo de aplicaciones tienen mayor vulnerabilidad, en este
- caso se va a atacar a un portal de servicios que tiene a GlassFish como
- servidor de aplicaciones y al sitio web de la misma organización que tiene
- a Apache como servidor web y mediante herramientas de como Vega y OWASP
- ver cual presenta mejores niveles de reporte en ataques XSS.
+p.
 \end_layout
 
 \end_body

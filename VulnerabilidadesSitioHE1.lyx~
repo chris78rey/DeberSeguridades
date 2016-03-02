@@ -153,6 +153,16 @@ MARCO TEÓRICO
 CONFIGURACIÓN DEL EXPERIMENTO
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "CONF_EXPERIMENTO/CONFIG.lyx"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 EVALUACIÓN DE RESULTADOS Y DISCUSIÓN
 \end_layout

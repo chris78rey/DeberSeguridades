@@ -145,6 +145,16 @@ filename "RESUMEN/RESUMEN.lyx"
 INTRODUCCION
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "INTRODUCCION/INTRODUCCION.lyx"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 MARCO TEÓRICO
 \end_layout
