@@ -276,6 +276,42 @@ tas que posee Kali Linux 2.0 para realizar ataques o revisar vulnerabilidades.
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename image_exper.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Equipo y herramientas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 En el caso de maltego que se encuentra en el menú de opciones más utilizadas
  en Kali Linux se la revisó para su utilización y la diferencia principal
  que se encontró fue que necesitava cada usuario registrar sus datos en
@@ -342,7 +378,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename grafico_menu_maltego.png
+	filename image4144.png
 	lyxscale 5
 	scale 15
 
@@ -383,7 +419,33 @@ Cuando se cumple ya la fase previa el paso siguiente es iniciar con la revisión
  puede arrancar ingresando por el menú contextual y en la opción de análisis
  de aplicaciones web aparece su ícono.
  Cuando se accede a este componente aparece una ventana en la que permite
- ingresar el URL 
+ ingresar el URL para ello se debe revisar la opción de política de la herramien
+ta en la que se definió el nivel de ataque en este caso se definió un ataque
+ de alto nivel y que genere un log de las mismas características, posee
+ esta herramienta la posibilidad de habilitar plugins
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Componente que se puede añadir a un programa para aumentar sus capacidades.
+\end_layout
+
+\end_inset
+
+ que permite revisar desde un navegador en específico la revisión de sus
+ vulnerabilidades, posee también un componente que permite generar payloads
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Script de generación de código generalmente javascript que se puede utilizar
+ en ataques XSS.
+ 
+\end_layout
+
+\end_inset
+
+de manera autática, así como los reportes de las páginas más vulnerables.
 \end_layout
 
 \end_body

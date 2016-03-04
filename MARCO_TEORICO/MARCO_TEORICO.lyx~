@@ -1,0 +1,242 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass IEEEtran
+\begin_preamble
+\usepackage[spanish,es-nodecimaldot,es-tabla,es-noquoting]{babel}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{float}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package 
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\branch ssd
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch ramita
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch tres
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Para realizar el experimento se inició con una etapa de reconocimiento,
+ en este caso serealizó algunas reuniones con la gerencia de TICS de la
+ organización de saludo donde se realizó el análisis en donde se explico
+ cual era la inrención del mismo, en este caso determinar vulnerabilidades
+ y puntos débiles dentro del sitio, se llegó a un concenso de hasta donde
+ se llegaría con el ataque y se definio que el resultado del mismo sería
+ un informe de las vulnerabilidades y recomendaciones que el departamento
+ las pueda aplicar, además se entregó una autorización por escrito para
+ realizarlo en horas que el servicio tenga pocas transacciones y en un aplicativ
+o que no tiene mucha transaccionalidad con la base de datos, en esta etapa
+ se trabajó en conjunto con el personal de infraestructura, se solicitó
+ un diagramá de referencia de como se mantiene es sitio en la web, en segunda
+ instancia se definió la necesidad de contar con dos equipos portátiles
+ en los que se pueda instalar herramientas de virtualización de fácil integració
+n con mencionado equipo, en este caso se decidió que sea Versión 5.0.12 r104815,
+ se realizó una revisión de literatura relacionada a este tipo de análisis
+ de vulnerabilidades y definir el sistema operativo para las máquinas virtuales,
+ en esta caso se determinó que Kali Linux 2.0 erá la herramienta adecuada
+ ya que tiene dentro de su core opciones clasificadas dependiendo del tipo
+ de análisis que se vaya a realizar, para el ataque se necesitó de un sitio
+ remoto que mediante un router tenga acceso a la direción IP pública del
+ sitio y pueda enviar paquetes al mismo, el otro equipo con acceso remoto,
+ en este caso VPN puede conectarse al sitio y recolecpete los datos que
+ se generen, en este caso la degradación del servicio mediante la utilización
+ del comando 
+\begin_inset Quotes eld
+\end_inset
+
+sar
+\begin_inset Quotes erd
+\end_inset
+
+, el mismo que es capaz de tomar estadísticas generales del sistema y kSar-5.0.6
+ para poder representar los resultados en un formato visual para poderlo
+ interpretar.
+\end_layout
+
+\begin_layout Standard
+Las vulnerabilidades de las aplicaciones web pueden hacer que la seguridad
+ de los datos de las organizaciones puedan ser vulnerados, por tal motivo
+ la realización del experimento ya que en el se quizo obtener la mayor cantidad
+ de resultados de vulnerabilidades que se pueden presentar en un sitio web
+ así como su incidencia y aporta a que en las organizaciones se genere concienci
+a en el nivel de exposición que una aplicación web puede tener si no existe
+ este tipo de análisis de vulnerabilidades, a más de ello en el ejemplo
+ se muestra como herramientas de libre distribución pueden ser utilizadas
+ para determinar el grado de seguridad que poseen en ellas.
+\end_layout
+
+\begin_layout Standard
+Los ataques que comúnmente se presentan pueden ser 
+\begin_inset Quotes eld
+\end_inset
+
+SQL Injection (SQLi)
+\begin_inset Quotes erd
+\end_inset
+
+ que se aprobechan de las vulnerabilidades de las páginas web para mediante
+ el envio de peticiones puedan ejecutar comandos SQL que pueden llegar a
+ comprometer la integridad de la información, la disponibilidad del sitio
+ o la base de datos en su totalidad; 
+\begin_inset Quotes eld
+\end_inset
+
+Remote File Inclusion (RFI)
+\begin_inset Quotes erd
+\end_inset
+
+, en este tipo de ataques las organizaciones se ven vulneradas ya que los
+ atacantes agregan archivos al sitio que no se encuentran dentro del mismo
+ mediante la utilización de JavaScript, 
+\begin_inset Quotes eld
+\end_inset
+
+Local File Inclusion (LFI)
+\begin_inset Quotes erd
+\end_inset
+
+, en este tipo de ataque se agregan archivos que se encuentran dentro del
+ servidor que alverga a los aplicativos a pesar de no pertenecer al path
+ que aloja las páginas,
+\begin_inset Quotes erd
+\end_inset
+
+Directory Traversal (DT)
+\begin_inset Quotes erd
+\end_inset
+
+, en el que el atacante puede enviar peticiones a archivos de configuración
+ del sitio y exponerlo para que el hacker pueda observar carácteristicas
+ del sitio y aprobecharse de estas.
+\begin_inset Quotes erd
+\end_inset
+
+Cross Site Scripting (XSS)
+\begin_inset Quotes erd
+\end_inset
+
+ este tipo de aplicativo es el que permite que los parámetros que se envían
+ desde el cliente con destino al servidor web puedan ser analizados o intercepta
+dos haciendo que la funcionalidad de los aplicativos sea alterada, existe
+ elementos como payloads
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Código Javascript que puede incrustarse dentro de la página con el fin de
+ realizar ataques XSS.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+Email Extraction
+\begin_inset Quotes erd
+\end_inset
+
+, en este tipo de ataques el hacker intenta aprobecharse de las vulnerabilidades
+ de un aplicativo no validado para obtener la lista de correos e información
+ adicional relacionada a datos personales de lsa personas, porteriormente
+ este utiliza la información para venderla a empresas que se encargan de
+ realizar campañas promocionales y de marketing.
+\begin_inset Quotes erd
+\end_inset
+
+Comment Spamming
+\begin_inset Quotes erd
+\end_inset
+
+ que se utiliza para colocar en las páginas que más se visitan links hacia
+ sitios que ofrecen promociones o eventos.
+\begin_inset Quotes erd
+\end_inset
+
+HTTP Protocol Violation
+\begin_inset Quotes erd
+\end_inset
+
+, son ataques que se puden ejcutar mediante scripts enviando paquetes que
+ no cumplen con las especificaciones HTTP que consisten en enviar métodos
+ inexistentes en el protocolo
+\end_layout
+
+\end_body
+\end_document

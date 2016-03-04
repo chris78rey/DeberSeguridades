@@ -94,6 +94,17 @@
 Evaluación de herramientas de detección de vulnerabilidades XSS
 \end_layout
 
+\begin_layout Author
+Christian.
+ R.
+ Ruiz, Iveth Tello, Angel V.
+ Valverde.
+\end_layout
+
+\begin_layout Special Paper Notice
+Aca se coloca la filiación
+\end_layout
+
 \begin_layout Standard
 \begin_inset ERT
 status open
@@ -124,13 +135,6 @@ pagestyle{empty}
 
 \end_layout
 
-\begin_layout Author
-Christian.
- R.
- Ruiz, Iveth Tello, Angel V.
- Valverde.
-\end_layout
-
 \begin_layout Abstract
 \begin_inset CommandInset include
 LatexCommand input
@@ -157,6 +161,16 @@ filename "INTRODUCCION/INTRODUCCION.lyx"
 
 \begin_layout Section
 MARCO TEÓRICO
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "MARCO_TEORICO/MARCO_TEORICO.lyx"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section

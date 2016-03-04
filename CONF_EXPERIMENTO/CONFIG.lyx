@@ -276,6 +276,38 @@ tas que posee Kali Linux 2.0 para realizar ataques o revisar vulnerabilidades.
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename image_exper.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Equipo y herramientas para realizar el análisis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 En el caso de maltego que se encuentra en el menú de opciones más utilizadas
  en Kali Linux se la revisó para su utilización y la diferencia principal
  que se encontró fue que necesitava cada usuario registrar sus datos en
@@ -388,7 +420,7 @@ ta en la que se definió el nivel de ataque en este caso se definió un ataque
  de alto nivel y que genere un log de las mismas características, posee
  esta herramienta la posibilidad de habilitar plugins
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Componente que se puede añadir a un programa para aumentar sus capacidades.
