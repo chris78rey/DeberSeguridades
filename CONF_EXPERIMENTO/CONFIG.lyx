@@ -90,6 +90,10 @@
 
 \begin_body
 
+\begin_layout Subsection
+Configuración de la topología de prueba.
+\end_layout
+
 \begin_layout Standard
 Después de las autorizaciones que la entidad de salud proporcionó para que
  se pueda revisar su sitio web se inició con la configuración del experimento,
@@ -442,6 +446,48 @@ Script de generación de código generalmente javascript que se puede utilizar
 \end_inset
 
 de manera autática, así como los reportes de las páginas más vulnerables.
+\end_layout
+
+\begin_layout Subsection
+Configuración del análisis de vulnerabilidades.
+\end_layout
+
+\begin_layout Standard
+En Kali Linux se dispone de herramientas que permiten realizar análisis
+ de vulnerabilidades en sitios web como el caso de burpsuite, httprack,
+ owas-zap, paros, skipfish, vega, w3af entre otras, se utilizó cada una
+ de estas y para escoger la herramienta que se encargue de llevar el análisis
+ de vulnerabilidad se tomo en cuenta a aquella que permita de una manera
+ intuitiva y que disponga de una interfaz gráfica de usuario flexible.
+ En la seleccion final quedó Vega y OWASP-Zap.
+ Vega permite facilmente seleccionar los módulos de análisis de vulnerabilidad
+ entre los que este cuenta están los 
+\begin_inset Quotes eld
+\end_inset
+
+Injection modules
+\begin_inset Quotes erd
+\end_inset
+
+ en los que se puede mencionar a los que hacen un seguimiento o crean trazas,
+ Cross Domain, Evaluación de código inyectado,chequeo XSS.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Response Processing Modules
+\begin_inset Quotes erd
+\end_inset
+
+ entre los que se encuentra monitores de cookies, reconocimiento de juego
+ de caracteres y detección de errores en las páginas.
+ 
+\end_layout
+
+\begin_layout Standard
+OWASP-Zap que en sus opciones permite seleccionar Ataques activos de vectores,
+ revisión de alertas, ataque directo a aplicaciones, revisión de certificados,es
+caneo activo.
 \end_layout
 
 \end_body
