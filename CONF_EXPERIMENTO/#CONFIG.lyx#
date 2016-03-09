@@ -516,7 +516,124 @@ Web Application Firewall, es un componete de capa de aplicación que se encarga
 
 \end_inset
 
- el que 
+ en el caso de aplicaciones Java se encontró a WebCastellum ya que se adapta
+ a la tecnología mecionada y se utiliza en muchos contenedores J2EE y no
+ se necesita incorporar dentro del aplicativo código adicional además de
+ ello generá un alto grado de trazabilidad dentro de la aplicación en base
+ a reglas que permiten reconocer peticiones hostiles, codificación del URL,
+ ataques de denegación de servicio, limitación de parámetros dentro de una
+ petición e inclusive se puede definir lugares desde los cuales no se puede
+ tener acceso a este tipo de aplicaciones.
+ Otra alternativa para poder completar y mitigar cualquier tipo de ataque
+ a la URL de las páginas es utilizat PrettyFaces
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bworld,funes2014evaluacion"
+
+\end_inset
+
+ que puede escribir dinámicamente parámetros y reglas de navegación del
+ sitio.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Administrador/Documents/image3344.png
+	lyxscale 33
+	scale 33
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+WebCastellum configuració del filtro(WAF).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+EVALUACIÓN DE RESULTADOS Y DISCUCIÓN.
+\end_layout
+
+\begin_layout Standard
+Para poder medir y determinar en cuanto se afectó al sitio se utilizó a
+ 
+\begin_inset Quotes eld
+\end_inset
+
+sar
+\begin_inset Quotes erd
+\end_inset
+
+ como herramienta y como GUI
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Interfaz gráfica de usuario.
+\end_layout
+
+\end_inset
+
+ a Ksar que permite revisar un reporte detallado de los ataques efectuados
+ y como estos afectarón al sistema,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename RESULTADO001.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Recursos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
