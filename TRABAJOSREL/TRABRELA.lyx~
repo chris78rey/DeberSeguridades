@@ -1,0 +1,173 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass IEEEtran
+\begin_preamble
+\usepackage[spanish,es-nodecimaldot,es-tabla,es-noquoting]{babel}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{float}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package 
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\branch ssd
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch ramita
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch tres
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Raspberry Pi es un ordenador de placa reducida o (placa única) (SBC) de
+ bajo coste desarrollado en Reino Unido por la Fundación Raspberry Pi, con
+ el objetivo de estimular la enseñanza de ciencias de la computación en
+ las escuelas
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ABBJ10"
+
+\end_inset
+
+, en el caso de seguridad de la información se lo ha adaptado para realizar
+ controles y utilzar seguridad en la web, básicamente este equipo actua
+ como un router y en el lado de la seguridad permite realizar filtros tipo
+ WAF, en el caso que se disponga de de pantallas de despliegue de información,
+ se lo puede utilizar como herramienta de monitoreo.
+ La conectividad con equipos como laptops o teléfonos celulares es sencilla
+ y no necesita de instalación y brindando controles de riesgos en la web.
+ En el caso de utilitarios se lo configura generalmente con protocolos seguros
+ como SSH.
+ En términos generales este dispositivo puede emplearse como un punto de
+ acceso seguro, puede emplearse para conectarse de manera sefura a una VPN,
+ establecer tuneles punto apunto.
+ Dispone de búsqueda anónima en la web, es un dispositivo que si se utiliza
+ como WAF asegura la privacidad de localización o de gustos de tendencias
+ de búsqueda de sus usuarios.
+ Uno de los detalles importantes que a más de las aplicaciones de seguridad
+ que en el se puede implementar, es una herramienta de bajo precio y que
+ utiliza una derivación de Debian como sistema operativo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Administrador/image3368.png
+	lyxscale 25
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Raspberri PI WAF
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Además puede utilizarse en los hogares incorporando a la red doméstica la
+ posibilidad de implementar controles, entre los que cabe destacar el control
+ parental, así como protección para phishing, manteniendo un control de
+ las estadísticas de red y un servicio adicional que permite un control
+ de granularidad fina es OpenDNS Home que controla ingresos a sitios restringido
+s por reglas.
+\end_layout
+
+\end_body
+\end_document

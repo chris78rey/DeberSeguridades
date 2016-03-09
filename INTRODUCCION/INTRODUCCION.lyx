@@ -131,7 +131,14 @@ que se dan son principalmente ataques de inclusión local de archivos(LFI)
  permite obtener información de correo electrónico de las personas, Ataques
  del tipo de spamming a través de comentarios que se infiltran de manera
  similar a un spam y finalmente Ataques de violación del protocolo HTTP
- que consiste en el envio de petiociones http mal formados.
+ que consiste en el envio de petiociones http mal formados
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bworld"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard

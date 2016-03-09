@@ -192,8 +192,22 @@ filename "CONF_EXPERIMENTO/CONFIG.lyx"
 EVALUACIÓN DE RESULTADOS Y DISCUSIÓN
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "RESULTADOS/RESULT.lyx"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 TRABAJOS RELACIONADOS
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Section

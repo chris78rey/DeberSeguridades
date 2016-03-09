@@ -1067,12 +1067,53 @@ status open
 \begin_layout Plain Layout
 Técnica maliciosa para engañar a usuarios de internet con el fin de tomar
  el control de la computadora cuando se hace click en páginas aparentemente
- inocente.
+ inocentes.
 \end_layout
 
 \end_inset
 
- no pudo 
+ no pudo ser mitigado y ataques de tipo 
+\begin_inset Quotes eld
+\end_inset
+
+Buffer Overflow
+\begin_inset Quotes erd
+\end_inset
+
+ y 
+\begin_inset Quotes eld
+\end_inset
+
+Format String Error
+\begin_inset Quotes erd
+\end_inset
+
+ fueron mitigadas.
+ En el caso de riegos de nivel medio se mitigaron 
+\begin_inset Quotes eld
+\end_inset
+
+Web Browser XSS Protection Not Enabled
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Password Autocomplete in Browser
+\begin_inset Quotes erd
+\end_inset
+
+ y 
+\begin_inset Quotes eld
+\end_inset
+
+X-Content-Type-Options Header Missing
+\begin_inset Quotes erd
+\end_inset
+
+ fueron eliminadas en su totalidad.
 \end_layout
 
 \end_body
