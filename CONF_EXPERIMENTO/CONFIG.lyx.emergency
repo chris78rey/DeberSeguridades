@@ -456,9 +456,9 @@ Configuración del análisis de vulnerabilidades.
 En Kali Linux se dispone de herramientas que permiten realizar análisis
  de vulnerabilidades en sitios web como el caso de burpsuite, httprack,
  owas-zap, paros, skipfish, vega, w3af entre otras, se utilizó cada una
- de estas y para determinar la herramienta que se encargue de llevar el
- análisis de vulnerabilidad se tomo en cuenta a aquella que permita de una
- manera intuitiva y que disponga de una interfaz gráfica de usuario flexible.
+ de estas y para escoger la herramienta que se encargue de llevar el análisis
+ de vulnerabilidad se tomo en cuenta a aquella que permita de una manera
+ intuitiva y que disponga de una interfaz gráfica de usuario flexible.
  En la seleccion final quedó Vega y OWASP-Zap.
  Vega permite facilmente seleccionar los módulos de análisis de vulnerabilidad
  entre los que este cuenta están los 
@@ -488,35 +488,6 @@ Response Processing Modules
 OWASP-Zap que en sus opciones permite seleccionar Ataques activos de vectores,
  revisión de alertas, ataque directo a aplicaciones, revisión de certificados,es
 caneo activo.
- En cualquier caso el tiempo que conlleva a la realización del experimento
- es de alrededor de una hora para obtener mayor estadísticas por parte de
- las herramientas.
-\end_layout
-
-\begin_layout Subsection
-Propuesta de mitigación.
-\end_layout
-
-\begin_layout Standard
-En el caso del sitio web que se analizó las vulnerabilidades que se deben
- mitigar entre las que se destacaron XSS y SQL Injection y para mitigarlas
- se pensó en algunas herramientas entre ellas un aWAF de software.
- En el ataque se detérmino que se obtenía la ruta a las páginas del sitio
- y se descubrió que estas estaban desarrolladas con JSF y se encontraban
- fácilmente accesibles en algunos caos, se buscó en ese caso a algunas herramien
-tas que se adapten a una solución a nivel de capa de aplicaciones como un
- WAF
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Web Application Firewall, es un componete de capa de aplicación que se encarga
- de filtrar peticiones con intenciones de causar daño.
-\end_layout
-
-\end_inset
-
- el que 
 \end_layout
 
 \end_body
